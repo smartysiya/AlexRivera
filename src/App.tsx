@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import CaseStudyDetail from './pages/CaseStudyDetail';
 
 export default function App() {
   // Theme state: default to system preference if not stored
@@ -40,6 +41,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/case-study/:id" element={<CaseStudyDetail />} />
           </Routes>
         </main>
 

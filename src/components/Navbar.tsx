@@ -61,7 +61,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
             : 'bg-transparent py-5'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 flex items-center justify-between h-11 md:h-12">
           
           {/* Brand Logo */}
           <Link
@@ -71,7 +71,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }
             }}
-            className="flex items-center space-x-2 text-zinc-900 dark:text-white group"
+            className="flex items-center space-x-2 text-zinc-900 dark:text-white group h-11"
           >
             {/* Embedded Logo Icon */}
             <div className="text-primary-500 transform group-hover:scale-110 transition-transform duration-200">
@@ -114,7 +114,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
           </div>
 
           {/* Mobile Navigation controls */}
-          <div className="flex items-center space-x-2 md:hidden">
+          <div className="flex items-center space-x-2 md:hidden h-11">
             <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

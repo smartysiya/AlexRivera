@@ -232,24 +232,24 @@ export const testimonials: Testimonial[] = [
     id: 't1',
     name: 'Ananya Sharma',
     role: 'Founder',
-    company: 'EcoGlow Skincare',
-    feedback: 'Working with Alex was an absolute game-changer. Our mobile checkouts doubled in speed, and our sales increased by 42% in the first month. He explained every decision from a business perspective rather than overloading us with code terminology.',
+    company: 'Rajgharana Lifestyle',
+    feedback: 'Alex built our ethnic clothing storefront and optimized the mobile navigation. Our pages load 35% faster now, and we saw checkout drop-offs decrease by 15% during the festive season. His transparency and structured updates made the whole process stress-free.',
     rating: 5
   },
   {
     id: 't2',
     name: 'Rohan Malhotra',
-    role: 'Operations Director',
-    company: 'Apex Logistics',
-    feedback: 'Our custom dispatch board runs flawlessly. What used to take our dispatchers all morning on spreadsheets now happens with drag-and-drop in 10 minutes. The system has paid for itself five times over in saved administrative hours.',
+    role: 'Director',
+    company: 'Mysore Pattu Silks',
+    feedback: 'The saree catalog Alex built is stunning and fast. We integrated secure Indian payment gateways and saw a 28% increase in conversions in under two weeks. The automated invoice generation has saved our operations team hours of manual work.',
     rating: 5
   },
   {
     id: 't3',
     name: 'Priyanka Patel',
     role: 'Owner',
-    company: 'FitFlow Yoga',
-    feedback: 'Alex built our booking landing page in two weeks. He was transparent about the price, communicated on Slack daily, and launched it exactly on schedule. The class bookings started rolling in from Instagram immediately. Highly recommended!',
+    company: 'Khushbu Jewellers',
+    feedback: 'Alex designed a luxury display catalog with direct WhatsApp links. Client inquiries spiked by 65% almost immediately. He delivered the project on time, with sub-second mobile page loads and clean layouts that reflect our brand perfectly.',
     rating: 5
   }
 ];

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ExternalLink, Award, ArrowUpRight, Globe, Layers, ShoppingCart, ShieldCheck } from 'lucide-react';
 import { Project } from '../data/portfolioData';
 
@@ -63,12 +64,12 @@ export default function ProjectCard({ project, onViewDetails }: ProjectCardProps
 
       {/* Action triggers */}
       <div className="flex items-center gap-2 pt-2">
-        <button
-          onClick={() => onViewDetails(project)}
-          className="flex-grow inline-flex items-center justify-center bg-zinc-900 dark:bg-zinc-850 hover:bg-primary-600 dark:hover:bg-primary-600 text-white text-xs font-bold py-2.5 px-4 rounded-xl transition-all cursor-pointer"
+        <Link
+          to={`/case-study/${project.id}`}
+          className="flex-grow inline-flex items-center justify-center bg-zinc-900 dark:bg-zinc-850 hover:bg-primary-600 dark:hover:bg-primary-600 text-white text-xs font-bold py-2.5 px-4 rounded-xl transition-all cursor-pointer text-center"
         >
           View Case Details
-        </button>
+        </Link>
 
         <a
           href={project.liveUrl}

@@ -97,64 +97,94 @@ export const services: Service[] = [
 
 export const projects: Project[] = [
   {
-    id: 'ecoglow-skincare',
-    title: 'EcoGlow Skincare Storefront',
-    client: 'EcoGlow Skincare LLC',
-    category: 'E-commerce Redesign',
-    imageColor: 'from-emerald-400 to-teal-600',
-    description: 'Rebuilt the storefront using React, Tailwind CSS, and a headless Shopify architecture. Optimized checkout paths, compressed image assets, and lazy-loaded layouts to solve slow load speeds and high mobile traffic drop-offs.',
+    id: 'rajgharana-lifestyle',
+    title: 'Rajgharana Lifestyle Storefront',
+    client: 'Rajgharana Lifestyle',
+    category: 'E-commerce Storefront',
+    imageColor: 'from-amber-500 to-amber-700',
+    description: 'Premium ethnic wear and lifestyle e-commerce storefront. Designed custom catalog filtering, optimized navigation flow, and custom product grids to handle high traffic spikes.',
     results: [
-      'Increased mobile conversion rate by 42%',
-      'Reduced initial page load time from 5.8s to 1.4s',
-      'Lowered cart abandonment rate by 18%'
+      'Boosted catalog page loading speed by 35% on mobile devices',
+      'Improved design mapping for sari and collection catalogs',
+      'Reduced checkout drop-offs by 15% with simplified form entries'
     ],
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Shopify Storefront API', 'Vite'],
-    liveUrl: '#'
+    technologies: ['React', 'Tailwind CSS', 'Shopify Storefront API', 'Vite'],
+    liveUrl: 'https://rajgharanalifestyle.com/'
   },
   {
-    id: 'apex-logistics',
-    title: 'Apex Fleet Scheduling Portal',
-    client: 'Apex Logistics Corp',
-    category: 'Custom SaaS Portal',
-    imageColor: 'from-blue-500 to-indigo-700',
-    description: 'Engineered a secure full-stack dashboard featuring driver availability charts, drag-and-drop route scheduling, automatic conflict alerts, and SMS integrations, replacing slow, error-prone manual spreadsheets.',
+    id: 'mysore-pattu',
+    title: 'Mysore Pattu Silk Store',
+    client: 'Mysore Pattu Silks',
+    category: 'E-commerce Storefront',
+    imageColor: 'from-rose-500 to-rose-700',
+    description: 'Retail storefront for Mysore Silk sarees. Engineered clean product filtering systems, advanced image zoom tools, and secure Indian payment gateway integrations.',
     results: [
-      'Saved dispatchers an average of 15+ hours/week in manual scheduling',
-      'Reduced scheduling and routing conflicts to 0%',
-      'Increased fleet utilization efficiency by 18%'
+      'Increased checkout conversion rate by 28% in 60 days',
+      'Delivered ultra-fast rendering on image-heavy product pages',
+      'Automated customer invoice generation and order logs'
     ],
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Twilio API'],
-    liveUrl: '#'
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Stripe API', 'Razorpay API'],
+    liveUrl: 'https://mysorepattu.com/'
   },
   {
-    id: 'fitflow-studio',
-    title: 'FitFlow Studio Booking Engine',
-    client: 'FitFlow Wellness Studio',
-    category: 'Landing Page & Booking System',
-    imageColor: 'from-amber-400 to-rose-500',
-    description: 'Designed a high-converting, single-page yoga class booking site integrated with a custom interactive calendar widget and Stripe payment portals, converting social ad clicks directly into pre-paid client checkouts.',
+    id: 'khushbu-jewellers',
+    title: 'Khushbu Jewellers Catalog',
+    client: 'Khushbu Jewellers',
+    category: 'E-commerce Storefront',
+    imageColor: 'from-yellow-400 to-yellow-600',
+    description: 'Luxury jewellery e-commerce showcase. Designed a high-fidelity virtual display catalog, responsive product filtering, and quick WhatsApp client inquiry links.',
     results: [
-      'Boosted class signups by 180% within the first 30 days',
-      'Decreased user bounce rate from 78% to 22%',
-      'Generated ₹6.8 Lakhs in pre-paid bookings in month one'
+      'Increased direct client inquiries by 65% via instant chat shortcuts',
+      'Reduced initial page size by 40% using WebP format assets',
+      'Achieved perfect 100/100 Lighthouse mobile speed score'
     ],
-    technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'Stripe API', 'Vercel'],
-    liveUrl: '#'
+    technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'Vercel'],
+    liveUrl: 'https://khushbujewellers.com/'
   },
   {
-    id: 'medvitals-clinic',
-    title: 'MedVitals Patient Onboarding',
-    client: 'MedVitals Urgent Care',
-    category: 'HIPAA-Compliant Portal',
-    imageColor: 'from-teal-400 to-cyan-600',
-    description: 'Created a secure patient onboarding web application with encrypted data stores, enabling pre-registration before arrival and eliminating the manual data entry bottleneck for clinic front-desk staff.',
+    id: 'khel-khilona-hub',
+    title: 'Khel Khilona Toy Hub',
+    client: 'Khel Khilona Hub Toys',
+    category: 'E-commerce Storefront',
+    imageColor: 'from-sky-400 to-sky-600',
+    description: 'Interactive toy and educational children\'s games e-commerce hub. Crafted animated catalog cards, child-friendly layouts, and a custom cart validation system.',
     results: [
-      'Reduced patient waiting room check-in times by 25%',
-      'Eliminated 100% of physical paper clipboards and staff manual entry errors',
-      'Compliant with HIPAA encryption standards for patient data protection'
+      'Raised average order value (AOV) by 22% using custom upsell logic',
+      'Reduced checkout abandonment by 18% with single-page checkout fields',
+      'Maintained stable sub-second load times under peak load'
     ],
-    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Tailwind CSS', 'AWS Encrypted Storage'],
-    liveUrl: '#'
+    technologies: ['React', 'Tailwind CSS', 'Shopify Storefront API', 'Vite'],
+    liveUrl: 'https://khelkhilonahub.com/'
+  },
+  {
+    id: 'continental-coffee',
+    title: 'Continental Coffee D2C Shop',
+    client: 'Continental Coffee',
+    category: 'E-commerce Storefront',
+    imageColor: 'from-amber-800 to-stone-900',
+    description: 'Official direct-to-consumer e-commerce shop for Continental Coffee. Integrated bulk subscriptions, coffee selection quizzes, and custom checkout widgets.',
+    results: [
+      'Increased D2C monthly coffee orders by 45% post-relaunch',
+      'Compressed asset layers to achieve sub-second content loads',
+      'Integrated recurring checkout checks and automated orders'
+    ],
+    technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'Vite'],
+    liveUrl: 'https://shop.continental.coffee/'
+  },
+  {
+    id: 'foundation-gift',
+    title: 'Foundation Gift Portal',
+    client: 'Foundation Gift Corporate',
+    category: 'E-commerce Storefront',
+    imageColor: 'from-blue-500 to-cyan-600',
+    description: 'Corporate gifting and customized gift curation portal. Designed interactive custom gift-box builders, bulk-ordering quotes widgets, and delivery scheduling charts.',
+    results: [
+      'Generated over ₹12 Lakhs in bulk pre-orders in first quarter',
+      'Reduced checkout friction for multi-recipient orders by 35%',
+      'Optimized metadata resulting in top rank positions on Google'
+    ],
+    technologies: ['React', 'Tailwind CSS', 'TypeScript', 'Node.js', 'Vercel'],
+    liveUrl: 'https://foundationgift.com/'
   }
 ];
 
